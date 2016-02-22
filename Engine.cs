@@ -217,7 +217,7 @@ public class Engine : MonoBehaviour
 		if(spawn_timer<0)
 		{
 			sCharactersManager.SpawnMob();
-			spawn_timer = 5f;
+			spawn_timer = 10f;
 		}
 	}
 
