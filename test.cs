@@ -7,7 +7,7 @@ public class test : MonoBehaviour
 	// Use this for initialization
 	void Start ()
 	{
-	ColorSpace zmieniam
+	aasfasfasfsa 
 	}
 	
 	// Update is called once per frame
