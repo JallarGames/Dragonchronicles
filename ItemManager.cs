@@ -88,7 +88,7 @@ public static class sItemMaganer
 		Item item = templates.Find(x => x.id == _id);
 		if(item == null)
 			item = new Item();
-		return item;
+		return item.Copy();
 	}
 
 	public static void AddItem(ItemContainer ic, Item it)

@@ -1,0 +1,6 @@
+Projekt zosta³ stworzony w UNITY i C#.
+Celem projektu by³o pokazanie umiejêtnoœci projektowania sprawnego i przejrzystego kodu, stosowania wzorcow projektowych, znajomoœci edytora UNITY.
+
+U¿yte zasoby (modele,tekstury) w wiêkszoœci s¹ na wolnej licencji - nie s¹ moje.
+
+Sama treœæ projektu jest wstêpem do prac nad gr¹ typu MMO (nastêpny krok to Unity Networking)

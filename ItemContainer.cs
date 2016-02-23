@@ -17,7 +17,7 @@ public class ItemContainer : MonoBehaviour
 
 	void Start ()
 	{
-		CreateFrame(100);
+		CreateFrame(16);
 	}
 
 	void Update ()

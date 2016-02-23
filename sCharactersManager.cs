@@ -10,7 +10,8 @@ public static class sCharactersManager
 
 	public static void SpawnPlayer()
 	{
-		characters.Add(GameObject.Find("Player1").GetComponent<Character>());
+		GameObject o = GameObject.Find("Player1");
+		characters.Add(o.GetComponent<Character>());
 		characters[0].isPlayer = true;
 	}
 
@@ -30,7 +31,7 @@ public static class sCharactersManager
 
 		Item item;
 		item = sItemMaganer.GetItemTemplate(0);
-		item.quantity = 5000;
+		item.quantity = 10;
 		ic.items.Add(item);
 
 		characters.Add(o.GetComponent<Character>());

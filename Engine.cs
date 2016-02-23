@@ -130,9 +130,6 @@ public class Engine : MonoBehaviour
 
 		if(sItemMaganer.targetItemContainer)
 		{
-			sItemMaganer.targetItemContainer.frame.SetActive(true);
-			sItemMaganer.playerItemContainer.frame.SetActive(true);
-
 			for(int i=0;i<sItemMaganer.targetItemContainer.icons.childCount;i++)
 			{
 				Vector3 iconPos =  sItemMaganer.targetItemContainer.icons.GetChild(i).position;
@@ -192,7 +189,7 @@ public class Engine : MonoBehaviour
 		if(de_Quickslots.globalCD<0)
 			de_Quickslots.globalCD = 0;
 
-		if(Input.GetKeyDown(KeyCode.T))
+		if(Input.GetKeyDown(KeyCode.Alpha1))
 		{
 			sCharactersManager.characters[0].UseSkill(0);
 		}

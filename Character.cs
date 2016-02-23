@@ -177,6 +177,7 @@ public class Character : MonoBehaviour
 				if(info.collider.Equals(this.gameObject.GetComponent<Collider>()))
 				{
 					sItemMaganer.targetItemContainer = gameObject.GetComponent<ItemContainer>();
+					sItemMaganer.targetItemContainer.frame.SetActive(true);
 				}
 			}
 		}
