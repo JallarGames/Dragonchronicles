@@ -21,7 +21,5 @@ public class CastBar: MonoBehaviour
 		}else{
 			gameObject.SetActive(false);
 		}
-		
-		//zmiany w pasku gui
 	}
 }
